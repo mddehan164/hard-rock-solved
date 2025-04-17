@@ -60,7 +60,7 @@ searchBtn.addEventListener('click', ()=>{
             singleResult.className = "single-result row align-items-center my-3 p-3";
             let uniqueId = `get-lyrics-${e.id}`
             singleResult.innerHTML = `
-                    <div style="width: 15%;">
+                    <div style="width: 120px;">
                             <img style="width: 100%;" src="${e.album.cover_big}"" alt="">
                     </div>
 
